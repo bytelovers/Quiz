@@ -1,7 +1,6 @@
 extends ../layout
 
 block content
-  h1 Quiz el juego de las preguntas
   form(method="get", action="/quizes/answer")
     p= pregunta
     input(type="text" name="respuesta")
