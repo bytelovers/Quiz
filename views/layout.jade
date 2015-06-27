@@ -2,7 +2,10 @@ doctype html
 html
   head
     title= title
+    meta(name="viewport", content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;")
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/wide.css')
+    link(rel='stylesheet', href='/stylesheets/smartphone.css')
   body
     div#page-wrap
         header#h1.main
@@ -12,7 +15,6 @@ html
                 a(href="/") Inicio
             span
                 a(href="/quizes/question") Preguntas
-
         section
             block content
 
